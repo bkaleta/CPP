@@ -1,0 +1,55 @@
+# Pliki binarne wykonywalne
+*.exe
+*.out
+*.app
+
+# Pliki obiektowe
+*.o
+*.obj
+*.lo
+*.la
+
+# Biblioteki statyczne i dynamiczne
+*.a
+*.so
+*.dll
+*.dylib
+
+# Katalogi build / wynikowe
+/build/
+/bin/
+/Debug/
+/Release/
+
+# Pliki generowane przez CMake
+CMakeFiles
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Pliki generowane przez Make
+*.d
+*.gcno
+*.gcda
+*.gcov
+
+# Pliki wygenerowane przez IDE (np. Visual Studio, CLion)
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln
+*.ncb
+*.opensdf
+*.sdf
+*.mode1v3
+*.mode2v3
+*.xcconfig
+
+# Tymczasowe pliki i katalogi
+*.log
+*.tmp
+*.swp
+*.DS_Store
+Thumbs.db
