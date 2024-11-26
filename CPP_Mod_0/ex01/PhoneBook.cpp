@@ -6,7 +6,7 @@
 /*   By: bkaleta <bkaleta@student.42warsaw.pl>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 10:22:16 by bkaleta           #+#    #+#             */
-/*   Updated: 2024/11/26 15:41:11 by bkaleta          ###   ########.fr       */
+/*   Updated: 2024/11/26 15:53:52 by bkaleta          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ void	PhoneBook::add()
 	
 	if (size < 8)
 	{
-		std::cout << "Enter First Name: ";
+		std::cout << std::endl <<"Enter First Name: ";
 		std::cin >> fN;
 		newContact.setFirstName(fN);
 		
@@ -69,7 +69,7 @@ void	PhoneBook::add()
 			else
 				std::cout << "Wrong input, Type Y/N" << std::endl;
 		}
-		std::cout << "Enter First Name: ";
+		std::cout << std::endl << "Enter First Name: ";
 		std::cin >> fN;
 		newContact.setFirstName(fN);
 		
@@ -106,7 +106,7 @@ void	PhoneBook::search() const
         std::cout << "PhoneBook is empty. Add some contacts first!" << std::endl;
         return;
     }
-	std::cout << std::setw(10) << "Index" << "|"
+	std::cout << std::endl << std::setw(10) << "Index" << "|"
               << std::setw(10) << "First Name" << "|"
               << std::setw(10) << "Last Name" << "|"
               << std::setw(10) << "Nickname" << std::endl;
@@ -140,7 +140,7 @@ void	PhoneBook::search() const
 		break;
 	}
 
-    std::cout << "First Name: " << array_of_contacts[ind].getFirstName() << std::endl;
+    std::cout << std::endl << "First Name: " << array_of_contacts[ind].getFirstName() << std::endl;
     std::cout << "Last Name: " << array_of_contacts[ind].getLastName() << std::endl;
     std::cout << "Nickname: " << array_of_contacts[ind].getNickName() << std::endl;
     std::cout << "Phone Number: " << array_of_contacts[ind].getPhoneNumber() << std::endl;
