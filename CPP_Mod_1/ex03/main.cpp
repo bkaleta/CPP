@@ -6,11 +6,13 @@
 /*   By: bkaleta <bkaleta@student.42warsaw.pl>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/07 15:37:44 by bkaleta           #+#    #+#             */
-/*   Updated: 2024/12/07 15:38:54 by bkaleta          ###   ########.fr       */
+/*   Updated: 2024/12/08 03:16:42 by bkaleta          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Weapon.hpp"
+#include "HumanA.hpp"
+#include "HumanB.hpp"
 
 int main()
 {

@@ -6,7 +6,7 @@
 /*   By: bkaleta <bkaleta@student.42warsaw.pl>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/07 16:01:36 by bkaleta           #+#    #+#             */
-/*   Updated: 2024/12/07 16:09:35 by bkaleta          ###   ########.fr       */
+/*   Updated: 2024/12/08 02:59:20 by bkaleta          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,21 +14,21 @@
 
 Weapon::Weapon(void)
 {
-	type = "empty hand";
+	type = "No Weapon";
 }
 
-Weapon::Weapon(std::string t)
+Weapon::Weapon(std::string weaponType)
 {
-	type = t;
+	type = weaponType;
 }
 
 Weapon::~Weapon()
 {
 }
 
-void	Weapon::setType(std::string t)
+void	Weapon::setType(std::string weaponType)
 {
-	type = t;
+	type = weaponType;
 }
 const std::string &Weapon::getType() const
 {

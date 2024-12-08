@@ -6,7 +6,7 @@
 /*   By: bkaleta <bkaleta@student.42warsaw.pl>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/07 15:39:02 by bkaleta           #+#    #+#             */
-/*   Updated: 2024/12/07 16:01:32 by bkaleta          ###   ########.fr       */
+/*   Updated: 2024/12/08 02:58:48 by bkaleta          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,10 +22,11 @@ private:
 	std::string	type;
 public:
 	Weapon(void);
-	const std::string	&getType() const;
-	void	setType(std::string t);
-	Weapon(std::string typ);
+	Weapon(std::string weaponType);
 	~Weapon(void);
+
+	const std::string	&getType() const;
+	void	setType(std::string weaponType);
 };
 
 #endif
