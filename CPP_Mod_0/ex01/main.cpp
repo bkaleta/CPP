@@ -6,7 +6,7 @@
 /*   By: bkaleta <bkaleta@student.42warsaw.pl>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/25 20:41:52 by bkaleta           #+#    #+#             */
-/*   Updated: 2024/11/26 15:31:17 by bkaleta          ###   ########.fr       */
+/*   Updated: 2024/12/15 13:13:36 by bkaleta          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,4 +47,5 @@ int	main()
 			std::cout << std::endl << "Wrong input, try ADD, SEARCH or EXIT" << ": ";
 		}
 	}
+	return (0);
 }
